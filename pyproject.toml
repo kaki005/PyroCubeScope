@@ -1,7 +1,7 @@
 [project]
-name = "pythontemplate"
+name = "PyroCubeScope"
 version = "0.1.0"
-description = "My Python Template"
+description = "unofficial implement of CubeScope "
 authors = [{ name = "kaki005", email = "u097498f@ecs.osaka-u.ac.jp" }]
 dependencies = [
     "wandb>=0.17.6",
