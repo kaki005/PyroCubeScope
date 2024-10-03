@@ -1,3 +1,4 @@
-Unofficial implementation of [CubeScope](),
+- numpyroを用いたCubeScopeの実装です。
+- Unofficial implementation of [CubeScope](),
 Kota Nakamura, Yasuko Matsubara, Koki Kawabata, Yuhei Umeda, Yuichiro Wada, Yasushi Sakurai.
-The Web Conference 2023, [WWW'23](https://www2023.thewebconf.org/).
+The Web Conference 2023, [WWW'23](https://www2023.thewebconf.org/) using numpyro.
