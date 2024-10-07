@@ -6,16 +6,20 @@ from dataclasses_json import dataclass_json
 @dataclass_json
 @dataclass
 class ModelConfig:
-    name: str = "bert"
-    input_max_length: int = 32
+    k: int = 4
+    """topic num"""
+    mode_num: int = 2
+    """num of mode"""
+    latent_ndims= (2,2)
+    seed: int = 4
+    """seed for jax.random"""
+    D_init :float = 0.2
+    sigma_init: float = 0.1
+    """init of obs noise"""
 
 
-@dataclass_json
-@dataclass
-class TrainConfig:
-    lr: float = 1e-5
-    epochs: int = 10
-    batch_size: int = 16
+
+
 
 
 @dataclass_json
@@ -29,7 +33,6 @@ class WandbConfig:
 @dataclass
 class Config:
     model_cfg: ModelConfig = field(default_factory=ModelConfig)
-    train_cfg: TrainConfig = field(default_factory=TrainConfig)
     wandb: WandbConfig = field(default_factory=WandbConfig)
     data_dir: str = ""
     output_dir: str = ""

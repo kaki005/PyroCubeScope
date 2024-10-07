@@ -80,6 +80,8 @@ gitdb==4.0.11
     # via gitpython
 gitpython==3.1.43
     # via wandb
+gpx==0.2.1
+    # via pyrocubescope
 h11==0.14.0
     # via httpcore
 httpcore==1.0.6
@@ -172,6 +174,8 @@ jupyterlab-widgets==3.0.13
     # via ipywidgets
 kiwisolver==1.4.5
     # via matplotlib
+lxml==5.3.0
+    # via gpx
 markupsafe==2.1.5
     # via jinja2
     # via nbconvert
@@ -278,6 +282,7 @@ pyparsing==3.1.2
     # via matplotlib
 python-dateutil==2.9.0.post0
     # via arrow
+    # via gpx
     # via jupyter-client
     # via matplotlib
     # via pandas

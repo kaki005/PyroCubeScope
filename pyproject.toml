@@ -18,6 +18,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "ipykernel>=6.29.5",
     "numpyro>=0.15.3",
+    "gpx>=0.2.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.10"
